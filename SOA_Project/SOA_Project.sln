@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{C489AB9B-4A71-429F-BBEF-DEB1294F0BE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{4723010D-077D-4902-A2DD-ACD06ED1E9C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP NET MVC", "ASP NET MVC", "{305D6F49-AFE3-45B8-A87E-B1D0715275F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Hosting Layer", "2. Hosting Layer", "{16110A75-D360-4A52-B1AD-C404EFE1249C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Service Layer", "3. Service Layer", "{02BF81C5-7C16-44BB-9D4E-E974773EF8A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Business Layer", "4. Business Layer", "{24BF45F6-5C0D-4233-8157-52893D6B3457}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Data Layer", "5. Data Layer", "{019CE8AD-3C02-4BCF-85A5-B0397BEF0662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks", "Frameworks", "{45125197-B9F8-47B6-BA96-719533AF9A83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{887F3C8C-695B-499E-88B8-0F0E4AA3BBC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{FE34F861-B531-4A09-BF72-F9AE37C07BC4}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Others\diagrams_enterprise architecture.eap = Solution Items\Others\diagrams_enterprise architecture.eap
+		Solution Items\Others\Template.tt = Solution Items\Others\Template.tt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts SQL", "Scripts SQL", "{5614F040-FBB9-4294-B460-51BBDACBCAE1}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Scripts SQL\Northwind.MSSQLServer.sql = Solution Items\Scripts SQL\Northwind.MSSQLServer.sql
+		Solution Items\Scripts SQL\Northwind.MySQL5.sql = Solution Items\Scripts SQL\Northwind.MySQL5.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA_Project.Presentation.ASPNETMVC", "1. Presentation Layer\ASP NET MVC\SOA_Project.Presentation.ASPNETMVC\SOA_Project.Presentation.ASPNETMVC.csproj", "{5ABFB567-ABAC-416C-97E0-11D5746BD3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA_Project.Presentation.WPF", "1. Presentation Layer\WPF\SOA_Project.Presentation.WPF\SOA_Project.Presentation.WPF.csproj", "{373A6B57-F276-4627-99B6-0EA93591BD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA_Project.Service", "3. Service Layer\SOA_Project.Service\SOA_Project.Service.csproj", "{CCA130AD-07A6-4BD0-8CFF-2644B5EFD4ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA_Project.Business", "4. Business Layer\SOA_Project.Business\SOA_Project.Business.csproj", "{7C895478-EC96-4FAC-B701-8F84F57013F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA_Project.Data", "5. Data Layer\SOA_Project.Data\SOA_Project.Data.csproj", "{7640F9D5-09DE-4A8D-8994-35798071CE70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAProject.Test", "Frameworks\SOAProject.Test\SOAProject.Test.csproj", "{A95DA8C7-28E7-4FAE-9420-D5D83613D6B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ABFB567-ABAC-416C-97E0-11D5746BD3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABFB567-ABAC-416C-97E0-11D5746BD3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABFB567-ABAC-416C-97E0-11D5746BD3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABFB567-ABAC-416C-97E0-11D5746BD3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373A6B57-F276-4627-99B6-0EA93591BD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373A6B57-F276-4627-99B6-0EA93591BD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373A6B57-F276-4627-99B6-0EA93591BD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373A6B57-F276-4627-99B6-0EA93591BD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA130AD-07A6-4BD0-8CFF-2644B5EFD4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA130AD-07A6-4BD0-8CFF-2644B5EFD4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA130AD-07A6-4BD0-8CFF-2644B5EFD4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA130AD-07A6-4BD0-8CFF-2644B5EFD4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C895478-EC96-4FAC-B701-8F84F57013F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C895478-EC96-4FAC-B701-8F84F57013F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C895478-EC96-4FAC-B701-8F84F57013F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C895478-EC96-4FAC-B701-8F84F57013F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7640F9D5-09DE-4A8D-8994-35798071CE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7640F9D5-09DE-4A8D-8994-35798071CE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7640F9D5-09DE-4A8D-8994-35798071CE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7640F9D5-09DE-4A8D-8994-35798071CE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95DA8C7-28E7-4FAE-9420-D5D83613D6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95DA8C7-28E7-4FAE-9420-D5D83613D6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95DA8C7-28E7-4FAE-9420-D5D83613D6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95DA8C7-28E7-4FAE-9420-D5D83613D6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4723010D-077D-4902-A2DD-ACD06ED1E9C0} = {C489AB9B-4A71-429F-BBEF-DEB1294F0BE9}
+		{305D6F49-AFE3-45B8-A87E-B1D0715275F4} = {C489AB9B-4A71-429F-BBEF-DEB1294F0BE9}
+		{FE34F861-B531-4A09-BF72-F9AE37C07BC4} = {887F3C8C-695B-499E-88B8-0F0E4AA3BBC6}
+		{5614F040-FBB9-4294-B460-51BBDACBCAE1} = {887F3C8C-695B-499E-88B8-0F0E4AA3BBC6}
+		{5ABFB567-ABAC-416C-97E0-11D5746BD3BD} = {305D6F49-AFE3-45B8-A87E-B1D0715275F4}
+		{373A6B57-F276-4627-99B6-0EA93591BD3B} = {4723010D-077D-4902-A2DD-ACD06ED1E9C0}
+		{CCA130AD-07A6-4BD0-8CFF-2644B5EFD4ED} = {02BF81C5-7C16-44BB-9D4E-E974773EF8A0}
+		{7C895478-EC96-4FAC-B701-8F84F57013F7} = {24BF45F6-5C0D-4233-8157-52893D6B3457}
+		{7640F9D5-09DE-4A8D-8994-35798071CE70} = {019CE8AD-3C02-4BCF-85A5-B0397BEF0662}
+		{A95DA8C7-28E7-4FAE-9420-D5D83613D6B8} = {45125197-B9F8-47B6-BA96-719533AF9A83}
+	EndGlobalSection
+EndGlobal
